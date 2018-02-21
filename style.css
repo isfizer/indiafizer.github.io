@@ -1,0 +1,64 @@
+header {
+	background: url(file:///Users/indiafizer/Downloads/Antonio-Soardes-header.jpg);
+}
+header h1 {
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Six Caps', sans-serif;
+	font-weight: 300;
+	font color: #64b8b2;
+}
+header img {
+	height: 225px;
+	width: 250px;
+	border: 5px solid white;
+	border-radius: 50%;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+blockquote {
+	font-family: 'Parisienne', cursive;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+
+}
+header ul {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: black;
+	font-family: 'Poiret One' , cursive;
+}
+li {
+	display: inline;
+	margin-left: 250px;
+	font-size: 20px;
+}
+.boxed {
+	border: 1px solid black;
+	height: 500px;
+	width: 500px;
+	font-family: 'Poiret One' , cursive;
+	text-align: center;
+	padding-right: 20px;
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+
+.boxed li {
+	margin-left: 20px;
+	text-align: center justify;
+	font-family: 'Poiret One' , cursive;
+	font-weight: 200;
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+a {
+	color: #F1452A;
+}
