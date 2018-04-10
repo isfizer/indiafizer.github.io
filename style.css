@@ -1,5 +1,5 @@
 header {
-	background: url(file:///Users/indiafizer/Downloads/Antonio-Soardes-header.jpg);
+	background: url(images/Antonio-Soardes-header.jpg);
 }
 header h1 {
 	color: white;
@@ -13,7 +13,6 @@ header img {
 	height: 225px;
 	width: 250px;
 	border: 5px solid white;
-	border-radius: 50%;
 	margin-top: 50px;
 	margin-left: 100px;
 }
@@ -39,7 +38,7 @@ li {
 .boxed {
 	border: 1px solid black;
 	height: 500px;
-	width: 500px;
+	width: 1000px;
 	font-family: 'Poiret One' , cursive;
 	text-align: center;
 	padding-right: 20px;
