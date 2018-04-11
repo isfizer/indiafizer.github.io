@@ -1,13 +1,12 @@
 header {
 	background: url(images/Antonio-Soardes-header.jpg);
 }
-header h1 {
-	color: white;
+h1 {
 	font-size: 60px;
 	text-align: center;
 	font-family: 'Six Caps', sans-serif;
 	font-weight: 300;
-	font color: #64b8b2;
+	color: #DC4F33;
 }
 header img {
 	height: 225px;
@@ -24,20 +23,27 @@ blockquote {
 	margin-bottom: 35px;
 
 }
-header ul {
+
+nav {
+	background-color: black;
+
+}
+nav ul {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: black;
 	font-family: 'Poiret One' , cursive;
 }
-li {
+nav li {
 	display: inline;
 	margin-left: 250px;
 	font-size: 20px;
+	font-family: 'Poiret One' , cursive;
+	color: #DC4F33;
 }
 .boxed {
 	border: 1px solid black;
-	height: 500px;
+	height: 60px;
 	width: 1000px;
 	font-family: 'Poiret One' , cursive;
 	text-align: center;
@@ -47,17 +53,46 @@ li {
 	margin-left: 50px;
 }
 
-.boxed li {
-	margin-left: 20px;
-	text-align: center justify;
-	font-family: 'Poiret One' , cursive;
-	font-weight: 200;
-	display: block;
-	padding-top: 20px;
-	padding-bottom: 10px;
-	font-size: 20px;
-}
 
 a {
 	color: #F1452A;
+}
+
+.image {
+	position: relative;
+  width: 100%;
+
+}
+
+* {box-sizing: border-box}
+
+.boxset-row {
+	position: relative;
+	width: 100%;
+	height: auto;
+
+}
+.boxset-row img {
+	width:  400px;
+    height: 300px;
+}
+
+.overlay {
+position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 45.5%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Poiret One' , cursive;
+}
+
+.boxset-row:hover .overlay {
+  opacity: 1;
 }

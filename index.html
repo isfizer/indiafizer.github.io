@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	  <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	  
 	<link href="https://fonts.googleapis.com/css?family=Parisienne|Poiret+One|Six+Caps" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="reset.css">
+	  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+     <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>India's Space</title>
 </head>
@@ -13,11 +18,23 @@
 	<header>
 		<h1> India's Space </h1>
 		<img class="circle responsive-img" src="images/heyhey.jpg">
-				<ul>
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="http://fashionconsumesme.tumblr.com"><img src="images/tumblr.png"></a></li>
+  <li><a href="https://www.instagram.com/jesuisindiasamone/"><img src="insta.png"></a></li>
+  <li class="divider"></li>
+  <li><a href="https://www.pinterest.com/indiafizer/"><img src="pinterest.png"></a></li>
+</ul>
+<nav>
+    <div class="nav-wrapper">
+      <ul id="nav-mobile" class="hide-on-med-and-down">
 		<li><a href="about.html">About Me</a></li>
 		<li><a href="contact.html">Contact</a></li>
-		<li><a href="social.html">Social Media</a></li>
-	</ul>
+		<li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons right">arrow_drop_down</i>Social Media</a></li>
+	</div>
+</ul>
+</nav>
 	</header>
 		<div class="container">
 			<div class="row">
@@ -29,14 +46,51 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="row">
 			<div class="col m10 offset-m1">
 	<div class="boxed">
 		My Work
-		<ul>
-		<li><a href="file:///Users/indiafizer/Documents/Writing Portfolio/Fizer, I-CounterCultureReview.pdf">Counter Culture</a></li>
-		<li><a href="file:///Users/indiafizer/Documents/Writing Portfolio/Fizer, I-RaciallyAmbiguous.pdf">Racially Ambiguous</a></li>
-	</ul>
+	</div>
+</div>
+			<div class="container">
+				<div class="boxset-row">
+			<div class="row">
+				<div class="col m4">
+  				<img src="images/title.jpg" alt="Avatar" class="image">
+  				<div class="overlay">Counter Culture Review</div></div>
+  			<div class="box">
+				<div class="col m4 offset-m2">
+  				<img src="images/fenty1.jpg" alt="Avatar" class="image">
+  				<div class="overlay">FentyxPuma RTW</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+</div>
+			<div class="container">
+				<div class="boxset-row">
+  			<div class="row">
+  				<div class="col m4">
+  				<img src="images/palm.jpg" alt="Avatar" class="image">
+  				<div class="overlay">Palm Reader Personal story</div></div>
+  				<div class="col m4 offset-m2">
+				<img src="images/allure.png" alt="Avatar" class="image">
+  				<div class="overlay">Diveristy in Magazines</div>
+  			</div>
+  			</div>
+  		</div>
+  	</div>
+  			<div class="container">
+  				<div class="boxset-row">
+  			<div class="row">
+  				<div class="col m8 offset-m3">
+  			<img src="images/title.jpg" alt="Avatar" class="image">
+  		<div class="overlay">Racially Ambiguous</div>
+  	</div>
+  	</div>
+  </div>
+</div>
 </div>
 </body>
 </html>
